@@ -1,0 +1,37 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="order_preference" >
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+    </string-array>
+
+    <string-array name="order_preference_value" >
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+    </string-array>
+    <string name="pref_summary_sort_order">Allow your user to change sort order</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="pref_title_sort_order">Sort order</string>
+    <string name="action_detail">Movie Detail</string>
+
+    <!-- Language-specific constants -->
+    <string name="today">Today</string>
+
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format [CHAR LIMIT=NONE] -->
+    <string name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g></string>
+
+</resources>
+
+<!--
+        android:key="sort_order"
+        android:title="@string/pref_title_sort_order"
+        android:summary="@string/pref_summary_sort_order"
+        android:defaultValue="@string/most_popular"
+        android:entries="@array/order_preference"
+        android:entryValues="@array/order_preference_value">
+-->
